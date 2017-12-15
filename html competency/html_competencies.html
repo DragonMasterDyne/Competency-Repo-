@@ -3,23 +3,30 @@
 <html lang="en">
     <!-- COMP 54I The head -->
 <head>
+    <!-- COMP 58G Media type meta data I think -->    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- COMP 58C Title meta data  -->    
+    <meta name="tite" content="MY Super Awesome HTML Page">
+    <!-- COMP 58E Keywords meta data -->
+    <meta name="keywords" content="HTML, CSS, Competency">
+    <!-- COMP 58D Description meta data -->
+    <meta name="description" content="A page to show my competency">
     <!-- COMP 54G The link tag is also an example of a self closing tag -->    
     <!-- COMP 54H used link tag to bring in a css stylesheet -->
-    <!-- COMP This link tag has an example of a href attribute -->
+    <!-- COMP 54J This link tag has an example of a href attribute -->
     <link rel="stylesheet" href="./html_competencies.css">
 
     <!-- COMP 54I The title -->
-    <title>My super awsome html page</title>
+    <title>My Super Awesome HTML Page</title>
 </head>
 <!-- COMP 54I The body -->
 <body>
     <!-- COMP 54D can use article tag -->
     <article>
-        <!-- COMP Can use a h1 tag -->
-        <!-- COMP This h1 tag has an example of a stlye attribute -->        
+        <!-- COMP 54F Can use a h1 tag -->
+        <!-- COMP 54J This h1 tag has an example of a stlye attribute -->        
         <h1 style="color: blue; font-weight: 900;">My Competency Page Demo</h1>
         <p>This is a static html page to demonstrate my competency in html.</p>
     </article>
@@ -67,6 +74,17 @@
         <video width="320" height="320" controls>
             <source src="Boat_15.mp4" type="video/mp4">
             Boat</video>
+    </section>
+
+    <section>
+        <p id="red" style="color: red">This text is Red</p>
+        <!-- COMP 61C Can use script tag -->
+        <script>
+            function changeToBlue() {
+                document.getElementById("red").style.color = 'blue'
+            }
+        </script>
+        <button type="button" onclick="changeToBlue()">Now it's Blue</button>
     </section>
 
 
