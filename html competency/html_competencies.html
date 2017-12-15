@@ -1,29 +1,72 @@
 <!DOCTYPE html>
+<!-- COMP 54I Have the basic skeleton for an html page -->
 <html lang="en">
+    <!-- COMP 54I The head -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- 54H used link tag to bring in a css stylesheet -->
+    <!-- COMP 54G The link tag is also an example of a self closing tag -->    
+    <!-- COMP 54H used link tag to bring in a css stylesheet -->
+    <!-- COMP This link tag has an example of a href attribute -->
     <link rel="stylesheet" href="./html_competencies.css">
 
-
+    <!-- COMP 54I The title -->
     <title>My super awsome html page</title>
 </head>
+<!-- COMP 54I The body -->
 <body>
-    <!-- 54D can use article tag -->
+    <!-- COMP 54D can use article tag -->
     <article>
-        <h1>My Competency Page Demo</h1>
+        <!-- COMP Can use a h1 tag -->
+        <!-- COMP This h1 tag has an example of a stlye attribute -->        
+        <h1 style="color: blue; font-weight: 900;">My Competency Page Demo</h1>
         <p>This is a static html page to demonstrate my competency in html.</p>
     </article>
-    <!-- 54D can use a section tag -->
+    <!-- COMP 54D can use a section tag -->
     <section>
         <h1>Using Divs, Span, and P tags</h1>
         <!--COMP 54C Can use <p>, <span>, and <div> elements -->
             <p>This is a p tag it is great for rendering text on the page!</p>
             <P id='span_demo'>Span tag are great for doing <span>inline styling</span> inside another element.</P>
             <div class="div_demo"><div>Divs are great for dividing elements on the page to easily style them.</div></div>
+    </section>
+    <!--  -->
+    <table>
+        <!-- COMP 54F Can use a h2 tag -->
+        <h2>This is a list of my favorite things</h2>
+        <!-- COMP 54E Can use a ul tag to make a unordered list -->
+        <!-- COMP 54J An example of a title attribute -->
+        <ul title="This is a list of my favorite things in case you can't read the header!">
+            <li>Snowboarding</li>
+            <li>Video Games</li>
+            <li>Pizza</li>
+        </ul>
+        <!-- COMP 54F Can use a h3 tag -->
+        <h3>Things I need to do</h3>
+        <!-- COMP 54E Can also use a ol tag to make a ordered list  -->
+        <ol>
+            <li>Clean room</li>
+            <li>Do laundry</li>
+            <li>Go to store</li>
+        </ol>
+        <!-- COMP 54G The img tag is also an example of a self closing tag -->
+        <!-- COMP 54E Can use a image tag to render an image on to page -->
+        <!-- COMP 54J This img tag has an example of a src attribute -->
+        <img class='snowboard_img' src="http://outdoorfunkids.com/wp-content/uploads/2016/10/lucky-bums-kids-snowboard.jpg" alt="snowboard">
+    </table>
+
+    <section>
+        <!-- COMP 55C Example of custom tag -->
+        <superAwsomeCustomTag>An example of making your own custom tag</superAwsomeCustomTag>
+
+        <audio controls>
+                <source src="01 - Take on Me.mp3" type="audio/mpeg">
+        </audio>
+        <!-- COMP 55D -->
+        <video width="320" height="320" controls>
+            <source src="Boat_15.mp4" type="video/mp4">
+            Boat</video>
     </section>
 
 
