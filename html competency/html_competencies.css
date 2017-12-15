@@ -104,3 +104,10 @@ div+p {
     bottom: 0;
     background: grey;
 }
+
+/* COMP 23F Used a background-image property to set an image */
+.image_box {
+    height: 600px;
+    width: 600px;
+    background-image: url('https://media.giphy.com/media/l3zoKeX8bMG5sMP4s/giphy.gif')
+}
