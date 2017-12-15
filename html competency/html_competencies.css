@@ -31,3 +31,76 @@
     height: 200px;
     width: 200px;
 }
+
+/* COMP 24C used margin to seperate box_container from bottom of page and script section*/
+/* COMP 24D used border to clearly define where box_container is  */
+/* COMP 24E used padding to position boxes in box_container  */
+.boxes_container {
+    width: 400px;
+    height: 250px;
+    border: 3px solid black;
+    position: absolute;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+/* COMP 25D Used float to move box to the left side of its container */
+.box1 {
+    background: blue;
+    float: left;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+}
+/* COMP 24F This box is bigger than the blue one because of box sizing */
+/* COMP 25D Used float to move box to the right side of its container */
+/* COMP 25F Used disply flex to enable flex on box2 */
+/* COMP 27C Used justify content to center boxes*/
+/* COMP 27D Used align items to center boxes*/
+/* COMP 27E Used flex wrap to keep column of boxes from breaking container */
+/* COMP 27F Used flex direction to make small boxes go up and down in a column*/
+/* COMP 27G Used disply flex to enable flex on box2 */
+.box2 {
+    text-align: center;
+    background: red;
+    float: right;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-top: 40px;   
+    padding: 25px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap
+}
+
+.small_boxes {
+    height: 20px;
+    width: 20px;
+    background: green;
+    margin: 10px;
+}
+
+/* COMP 22C-5 Can use addition selector to style an element */
+/* COMP 24C Used margin on p tag to center it in box */
+div+p {
+    height: 30px;
+    width: 150px;
+    font-style: italic;
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    margin-left: 150px;
+}
+
+/* COMP 25C used positioning footer to fix it to the bottom of the screen */
+.footer {
+    position: fixed;
+    bottom: 0;
+    background: grey;
+}
