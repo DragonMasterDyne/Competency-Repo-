@@ -1,0 +1,28 @@
+
+/* COMP 22C-1 used an id selector to style a p tag on html page */
+#span_demo {
+    font-size: 1.8em;
+    color: red;
+}
+/* COMP 22C-4 used a descendant selector to style span tag inside #span_demo  */
+#span_demo span {
+    font-size: 1.8em;
+    font-style: italic;
+    color: blue;
+}
+/* COMP 22C-2 used a class selector to syle an element */
+/* COMP 22E used background color to style div_demo */
+.div_demo {
+    height: 50px;
+    width: 400px;
+    border: solid 3px black;
+    text-align: center; 
+    background-color: lightblue;
+}
+/* COMP 22C-3 used a child selector to style all divs in side class .div_demo */
+/* COMP 23D can use font weight, font size, and color to style an element */
+.div_demo> div {
+    font-size: 20px;
+    font-weight: 700;
+    color: green;
+}
